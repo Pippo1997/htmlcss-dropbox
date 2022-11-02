@@ -142,3 +142,13 @@ h2{
 .list-box{
     list-style-type: none;
 }
+
+.hr-box{
+    margin-top: 20px;
+    width: 30px;
+    color: rgba(208,208,211,255);
+}
+
+.grey{
+    color: grey;
+}
