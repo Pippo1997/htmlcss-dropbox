@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: yellow;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-header{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.padding-30px{
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.button-blue{
+    color: white;
+    background-color: rgba(0,97,255,255);
+    cursor: pointer;
+    border-style: none;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
