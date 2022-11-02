@@ -7,7 +7,10 @@
 /* header */
 
 header{
-    background-color: yellow;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .row-header{
@@ -21,13 +24,18 @@ header{
     align-items: center;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 ul{
     display: flex;
     list-style-type: none;
 }
 
-.padding-30px{
-    padding-left: 30px;
+.padding-15px{
+    padding-left: 15px;
+    padding-right: 15px;
     cursor: pointer;
 }
 
@@ -37,5 +45,53 @@ ul{
     cursor: pointer;
     border-style: none;
     padding: 5px 10px;
-    margin-left: 15px;
+}
+
+/* jumbotron */
+
+.background-jumbo{
+    background-color: rgba(180,208,231,255);
+    height: 700px;
+}
+
+.container-jumbo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row-jumbo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.col-h1{
+    padding-top: 120px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.padding-top{
+    padding-top: 20px;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-70 img{
+    height: 500px;
+    width: 100%;
+}
+
+.fa-arrow-down{
+    padding-top: 125px;
+    font-size: 50px;
 }
