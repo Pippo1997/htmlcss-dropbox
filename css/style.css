@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* header */
@@ -71,7 +72,7 @@ ul{
 
 h1{
     font-size: 60px;
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 .col-30{
@@ -87,11 +88,11 @@ h1{
 }
 
 .col-70 img{
-    height: 500px;
+    height: 415px;
     width: 100%;
 }
 
 .fa-arrow-down{
-    padding-top: 125px;
+    padding-top: 70px;
     font-size: 50px;
 }
