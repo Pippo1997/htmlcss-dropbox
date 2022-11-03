@@ -50,9 +50,8 @@ header{
 
 /* jumbotron */
 
-.background-jumbo{
+.background-blue{
     background-color: rgba(180,208,231,255);
-    height: 700px;
 }
 
 .container-jumbo{
@@ -296,3 +295,25 @@ a{
     width: 55%;
 }
 
+.hr-width-60px{
+    margin-top: 20px;
+    width: 60px;
+    color: rgba(208,208,211,255);
+}
+
+.row-Dropbox-Business{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.red{
+    color: rgba(97,8,43,255);
+}
+
+.button-white{
+    cursor: pointer;
+    padding: 8px 40px;
+    border-style: none;
+}
