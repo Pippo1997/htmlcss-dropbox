@@ -89,6 +89,7 @@ h1{
 
 .col-70 img{
     height: 415px;
+    width: 100%;
 }
 
 .fa-arrow-down{
@@ -103,8 +104,13 @@ h1{
     margin: 0 auto;
 }
 
-h2{
+/* section 1 */
+
+section{
     padding-top: 100px;
+}
+
+h2{
     font-size: 30px;
     font-weight: 600;
 }
@@ -112,8 +118,6 @@ h2{
 .margin-right-40px{
     margin-right: 40px;
 }
-
-/* section 1 */
 
 .row-box{
     display: flex;
@@ -191,12 +195,9 @@ a{
 
 /* section 2 */
 
-section{
-    padding-top: 100px;
-}
-
 .row-section2{
     display: flex;
+    gap: 50px;
 }
 
 .button-grey{
