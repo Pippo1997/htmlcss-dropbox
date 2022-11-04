@@ -253,7 +253,6 @@ a{
 
 .row-section5{
     display: flex;
-    height: 400px;
 }
 
 .col-33{
@@ -389,6 +388,10 @@ a{
 
 .padding-right{
     padding-right: 30px;
+}
+
+span{
+    font-weight: bolder;
 }
 
 /* footer */
